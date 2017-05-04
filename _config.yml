@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Great, Love"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,13 +14,13 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -45,10 +45,14 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
+  read: /read
+  think: /think
+  act: /act
+  me: /me
   #about: /about
-  archives: /archives
-  tags: /tags
+  #archives: /archives
+  #tags: /tags
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -69,6 +73,10 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  read: book
+  think: map
+  act: road
+  me: user
 
 
 
@@ -78,8 +86,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -140,8 +148,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/HaoDong-Guo
+ # Email: mailto:guohaodongchn@gmail.com
 
 
 # Social Links Icons
@@ -156,12 +166,13 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  MailMe: envelope
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -243,8 +254,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -307,7 +318,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: disqus_R5E4rnzm8N
   count: true
 
 # Hypercomments
@@ -324,7 +335,7 @@ changyan:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2132165
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -335,7 +346,7 @@ changyan:
 #    button | slide
 # Warning: Baidu Share does not support https.
 #baidushare:
-##  type: button
+## type: button
 
 # Share
 #jiathis:
@@ -350,7 +361,7 @@ changyan:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-98246863-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -405,14 +416,14 @@ vkontakte_api:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: BiJLuJY9LVyGY0XBi8m5Ugiu-gzGzoHsz
+  app_key: Y0uNvloSWXhVrvcfavG2ESdM
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -423,7 +434,7 @@ busuanzi_count:
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer:
 
 
@@ -590,3 +601,8 @@ images: images
 
 # Theme version
 version: 5.1.1
+
+# Donate
+reward_comment: 壕我们做朋友呀！
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
